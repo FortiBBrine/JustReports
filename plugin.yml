@@ -1,0 +1,31 @@
+name: JustReports
+main: me.CheloMine.JustReports.JustReports
+version: 1.0
+
+api-version: 1.13
+description: "Плагин на вопросы. Плагин на жалобы"
+author: IJustFortiLive
+
+commands:
+  reports:
+    usage: /reports
+    permission: justreports.admin
+    description: "Открыть меню репортов"
+  report:
+    usage: /report
+    description: "Отправить репорт"
+  getrep:
+    usage: /getrep <Никнейм>
+    description: "Получить репутацию администратора"
+    permission: justreports.admin
+  close:
+    usage: /close
+    description: "Закрыть репорт"
+
+permissions:
+  justreports.*:
+    children:
+      justreports.admin: true
+  justreports.admin:
+    default: op
+    description: "Права админа"
