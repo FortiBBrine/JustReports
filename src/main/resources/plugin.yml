@@ -1,0 +1,30 @@
+name: JustReports
+version: '${project.version}'
+main: me.fortibrine.justreports.JustReports
+api-version: 1.16
+
+commands:
+  reports:
+    description: "Команда для просмотра списка репортов"
+    usage: /reports
+  report:
+    description: "Команда для отправления репорта"
+    usage: "§7/report [Сообщение]"
+
+permissions:
+  justreports.*:
+    description: "Все права"
+    default: op
+    children:
+      justreports.report: true
+      justreports.reports: true
+      justreports.reports.answer: true
+  justreports.report:
+    default: true
+    description: "Право на отправку репорта"
+  justreports.reports:
+    default: op
+    description: "Право на просмотр списка репортов"
+  justreports.reports.answer:
+    default: op
+    description: "Право на ответ в репорте"
