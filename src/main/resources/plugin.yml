@@ -19,6 +19,7 @@ permissions:
       justreports.report: true
       justreports.reports: true
       justreports.reports.answer: true
+      justreports.see: true
   justreports.report:
     default: true
     description: "Право на отправку репорта"
@@ -28,3 +29,6 @@ permissions:
   justreports.reports.answer:
     default: op
     description: "Право на ответ в репорте"
+  justreports.see:
+    default: op
+    description: "Право на просмотр админских сообщений"

@@ -1,0 +1,22 @@
+messages:
+  permission: "§4Ошибка: §fУ вас нет прав."
+  you-send: "§cINFO: §7Вы отправили репорт."
+  you-already-in-chat: "§4Ошибка: §fТы уже отвечаешь на репорт."
+  you-already-send-report: "§4Ошибка: §fТы уже отправил репорт."
+  player-has-admin: "§4Ошибка: §fИгроку уже кто-то отвечает."
+
+  player-send: "§cINFO: §7%player отправили репорт: %question."
+
+  admin-close-report: "§cINFO: §7%dmin закрыл репорт %player."
+  admin-open-report: "§cINFO: §7%dmin открыл чат с %player."
+
+reports:
+  title: "Меню репортов"
+
+  item:
+    material: NAME_TAG
+    name: "§7%player"
+    lore:
+      - "§7Вопрос: %question"
+      - "§7ЛКМ - взять репорт"
+      - "§7ПКМ - закрыть репорт"
