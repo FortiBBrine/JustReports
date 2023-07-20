@@ -5,10 +5,15 @@ messages:
   you-already-send-report: "§4Ошибка: §fТы уже отправил репорт."
   player-has-admin: "§4Ошибка: §fИгроку уже кто-то отвечает."
 
+  admin: "§1Администратор §7%admin§f: %message"
+  player: "§1Игрок §7%admin§f: %message"
+
   player-send: "§cINFO: §7%player отправили репорт: %question."
 
-  admin-close-report: "§cINFO: §7%dmin закрыл репорт %player."
-  admin-open-report: "§cINFO: §7%dmin открыл чат с %player."
+  admin-close-report: "§cINFO: §7%admin закрыл репорт %player."
+  admin-open-report: "§cINFO: §7%admin открыл чат с %player."
+  answer: "На ваш репорт отвечает %admin"
+  close: "Варш репорт закрыл %admin"
 
 reports:
   title: "Меню репортов"
