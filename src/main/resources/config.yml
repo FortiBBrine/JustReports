@@ -9,12 +9,36 @@ messages:
   player: "§1Игрок §7%admin§f: %message"
 
   player-send: "§cINFO: §7%player отправили репорт: %question."
+  player-leave: "§cINFO: §7%player покидает сервер и его репорт удалён."
 
   admin-close-report: "§cINFO: §7%admin закрыл репорт %player."
   admin-open-report: "§cINFO: §7%admin открыл чат с %player."
   answer: "На ваш репорт отвечает %admin"
   close: "Варш репорт закрыл %admin"
 
+rate:
+  title: "Оценка администратору"
+
+  1:
+    material: GRAY_TERRACOTTA
+    name: "1 звезда"
+    lore: []
+  2:
+    material: GRAY_TERRACOTTA
+    name: "2 звезды"
+    lore: []
+  3:
+    material: GRAY_TERRACOTTA
+    name: "3 звезды"
+    lore: []
+  4:
+    material: GRAY_TERRACOTTA
+    name: "4 звезды"
+    lore: []
+  5:
+    material: GRAY_TERRACOTTA
+    name: "5 звёзд"
+    lore: []
 reports:
   title: "Меню репортов"
 
