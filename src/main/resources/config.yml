@@ -1,43 +1,63 @@
 messages:
+  # Нет плейсхолдеров
   permission: "§4Ошибка: §fУ вас нет прав."
   you-send: "§cINFO: §7Вы отправили репорт."
   you-already-in-chat: "§4Ошибка: §fТы уже отвечаешь на репорт."
   you-already-send-report: "§4Ошибка: §fТы уже отправил репорт."
   player-has-admin: "§4Ошибка: §fИгроку уже кто-то отвечает."
+  you-cant-answer-on-your-report: "§4Ошибка: §fВы не можете самому себе ответить."
 
+  # %player - игрок
+  # %admin - администратор
+  # %question - вопрос
+  # %message - сообщение
   admin: "§1Администратор §7%admin§f: %message"
-  player: "§1Игрок §7%admin§f: %message"
+  player: "§1Игрок §7%player§f: %message"
 
+  # %player - игрок
+  # %question - сообщение
   player-send: "§cINFO: §7%player отправили репорт: %question."
   player-leave: "§cINFO: §7%player покидает сервер и его репорт удалён."
 
+  # %player - игрок
+  # %admin - администратор
+  # %question - вопрос
   admin-close-report: "§cINFO: §7%admin закрыл репорт %player."
   admin-open-report: "§cINFO: §7%admin открыл чат с %player."
   answer: "На ваш репорт отвечает %admin"
   close: "Варш репорт закрыл %admin"
+
+  # %player - игрок
+  # %reputation - репутация
+  your-reputation: "§7Ваша репутация %reputation"
+  other-reputation: "§7Репутация %player %reputation"
+
+  # %player - игрок
+  # %stars - оценка
+  rate: "Игрок %player поставил тебе %stars."
 
 rate:
   title: "Оценка администратору"
 
   1:
     material: GRAY_TERRACOTTA
-    name: "1 звезда"
+    name: "§f1 звезда"
     lore: []
   2:
     material: GRAY_TERRACOTTA
-    name: "2 звезды"
+    name: "§f2 звезды"
     lore: []
   3:
     material: GRAY_TERRACOTTA
-    name: "3 звезды"
+    name: "§f3 звезды"
     lore: []
   4:
     material: GRAY_TERRACOTTA
-    name: "4 звезды"
+    name: "§f4 звезды"
     lore: []
   5:
     material: GRAY_TERRACOTTA
-    name: "5 звёзд"
+    name: "§f5 звёзд"
     lore: []
 reports:
   title: "Меню репортов"

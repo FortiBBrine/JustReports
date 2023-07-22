@@ -10,6 +10,9 @@ commands:
   report:
     description: "Команда для отправления репорта"
     usage: "§7/report [Сообщение]"
+  reputation:
+    description: "Команда для просмотра репутации"
+    usage: "§7/reputation [Никнейм]"
 
 permissions:
   justreports.*:
@@ -32,3 +35,9 @@ permissions:
   justreports.see:
     default: op
     description: "Право на просмотр админских сообщений"
+  justreports.reputation:
+    default: op
+    description: "Посмотреть свою репутацию"
+  justreports.reputation.other:
+    default: op
+    description: "Посмотреть рептацию других"
